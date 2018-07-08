@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+.drawings{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.banner{
+    text-align: center;
+}
+
+/* to have buttons */
+
+.btn-group button {
+    background-color: skyblue; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 20px 156px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: blue;
+}

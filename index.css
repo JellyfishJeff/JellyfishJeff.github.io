@@ -1,0 +1,72 @@
+.heads{
+    text-align: center;
+}
+.container{
+    margin: 150px;
+}
+banner{
+    position: fixed;
+}
+ 
+/* to have buttons */
+
+.btn-group button {
+    background-color: skyblue; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 20px 156px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: blue;
+}
+
+/* stick the btns to the side */
+.btn-group {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-size: cover;
+    background-image: url("390126_conquestus_sky-daytime.jpg");
+}
+#background{
+    background-color:white;
+    margin: 150px;
+}
+
+body{
+    font-size: 18px;
+}
+  
+  /* Page content */
+  .content {
+    padding: 0px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 0px;
+  }
