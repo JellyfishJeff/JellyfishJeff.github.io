@@ -2,7 +2,7 @@
     text-align: center;
 }
 .container{
-    margin: 150px;
+    margin: 75px;
 }
 banner{
     position: fixed;
@@ -10,11 +10,11 @@ banner{
  
 /* to have buttons */
 
-.btn-group button {
+.btn-group a {
     background-color: skyblue; /* Green background */
     border: 1px solid black; /* Green border */
     color: white; /* White text */
-    padding: 20px 156px; /* Some padding */
+    padding: 20px 109px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
 }
@@ -35,11 +35,7 @@ banner{
     background-color: blue;
 }
 
-/* stick the btns to the side */
-.btn-group {
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 body{
     background-size: cover;

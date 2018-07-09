@@ -18,11 +18,11 @@ img:hover {
 
 /* to have buttons */
 
-.btn-group button {
+.btn-group a{
     background-color: skyblue; /* Green background */
     border: 1px solid black; /* Green border */
     color: white; /* White text */
-    padding: 20px 156px; /* Some padding */
+    padding: 20px 112px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
 }
@@ -42,3 +42,15 @@ img:hover {
 .btn-group button:hover {
     background-color: blue;
 }
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 20px;
+}
+
+/* .row:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
