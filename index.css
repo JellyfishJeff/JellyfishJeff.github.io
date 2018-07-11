@@ -26,12 +26,12 @@ banner{
     display: table;
 }
 
-.btn-group button:not(:last-child) {
+.btn-group an:not(:last-child) {
     border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+.btn-group a:hover {
     background-color: blue;
 }
 
