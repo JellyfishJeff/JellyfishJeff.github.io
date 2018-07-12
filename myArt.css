@@ -7,9 +7,18 @@ h1{
     flex-wrap: wrap;
     padding: 5px;
     width: 100vw;
-    text-align: center;
 }
- 
+
+#container{
+    display: flex;
+    align-content: center;
+    align-items: center
+}
+#content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 .drawings a{
     padding: 15px;
 }
@@ -20,7 +29,10 @@ img:hover {
 .banner{
     text-align: center;
 }
-
+a {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* to have buttons */
 
 .btn-group a{
