@@ -30,4 +30,11 @@
 }
 .info{
     text-align: center;
+    background-color: white;
+    margin: 50px;
+}
+
+body{
+    background-size: cover;
+    background-image: url(390126_conquestus_sky-daytime.jpg);
 }
