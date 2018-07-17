@@ -1,5 +1,8 @@
 .heads{
     text-align: center;
+    background-color: white;
+    margin: 250px;
+    font-size: 20px;
 }
 .banner{
     text-align: center;
@@ -30,4 +33,9 @@
 /* Add a background color on hover */
 .btn-group button:hover {
     background-color: blue;
+}
+
+body{
+    background-size: cover;
+    background-image: url("390126_conquestus_sky-daytime.jpg");
 }
