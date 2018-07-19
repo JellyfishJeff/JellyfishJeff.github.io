@@ -1,6 +1,7 @@
 .heads{
     text-align: center;
-    background-color: white;
+    background-size: cover;
+    background-image: url("390126_conquestus_sky-daytime.jpg");
     margin: 250px;
     font-size: 20px;
 }
@@ -31,11 +32,11 @@
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+.btn-group a:hover {
     background-color: blue;
 }
 
 body{
     background-size: cover;
-    background-image: url("390126_conquestus_sky-daytime.jpg");
+
 }

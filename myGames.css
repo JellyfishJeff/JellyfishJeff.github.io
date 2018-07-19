@@ -21,19 +21,17 @@
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+.btn-group a:hover {
     background-color: blue;
 }
 
 h1{
     text-align: center;
 }
-body{
-    background-size: cover;
-    background-image: url("390126_conquestus_sky-daytime.jpg")
-}
+
 .corps{
-    background-color: white;
+    background-size: cover;
+    background-image: url("390126_conquestus_sky-daytime.jpg");
     margin-left: 170px;
     margin-right: 170px;
     font-size: 20px;

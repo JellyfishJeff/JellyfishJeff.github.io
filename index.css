@@ -38,12 +38,10 @@ banner{
 
 
 
-body{
-    background-size: cover;
-    background-image: url("390126_conquestus_sky-daytime.jpg");
-}
+
 #background{
-    background-color:white;
+    background-size:cover; 
+    background-image: url("390126_conquestus_sky-daytime.jpg");
     margin: 150px;
 }
 
