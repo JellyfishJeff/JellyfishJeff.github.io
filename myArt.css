@@ -22,7 +22,7 @@ h1 {
 }
 
 .drawings a {
-    padding: 30px;
+    padding: 12px;
 }
 
 img:hover {
@@ -33,7 +33,7 @@ img:hover {
     text-align: center;
 }
 
-a {
+a { 
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,14 +86,4 @@ body {
     margin-right: 150px;
 
 }
-/* .column {
-    float: left;
-    width: 10%;
-    padding: 20px;
-} */
 
-/* .row:after {
-    content: "";
-    clear: both;
-    display: table;
-} */
