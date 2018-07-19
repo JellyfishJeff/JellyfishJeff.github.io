@@ -2,7 +2,8 @@
     text-align: center;
     background-size: cover;
     background-image: url("390126_conquestus_sky-daytime.jpg");
-    margin: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size: 20px;
 }
 .banner{
@@ -40,3 +41,22 @@ body{
     background-size: cover;
 
 }
+
+
+/* sticky menu */
+/* Page content */
+.content {
+    padding: 0px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 0px;
+  }
