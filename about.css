@@ -60,3 +60,8 @@ body{
   .sticky + .content {
     padding-top: 0px;
   }
+
+
+  /* to have an auto slideshow */
+  .mySlides {
+    display: none;}
